@@ -18,8 +18,12 @@ Age: Age of the account holder.import pandas as pd
 Gender: Gender of the account holder. 
 Income: Income of the account holder. 
 Account_Type: Type of account (e.g., personal, business).[transaction_anomalies_dataset.csv](https://github.com/user-attachments/files/16478610/transaction_anomalies_dataset.csv)
+
+
 ##RESEARCH & RESULT
+
 #Anamoly detection in transaction by importing the necessary python libraries and the dataset:
+
 ```import pandas as pd
 import plotly.express as px
 from sklearn.model_selection import train_test_split
@@ -27,6 +31,8 @@ from sklearn.ensemble import IsolationForest
 from sklearn.metrics import classification_report
 
 data = pd.read_csv("transaction_anomalies_dataset.csv")
-print(data.head())```
+print(data.head())
+
 #If the data has any null values:
-```print(data.isnull().sum())```
+
+```print(data.isnull().sum())
