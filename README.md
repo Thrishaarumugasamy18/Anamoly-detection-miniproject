@@ -33,6 +33,4 @@ from sklearn.metrics import classification_report
 data = pd.read_csv("transaction_anomalies_dataset.csv")
 print(data.head())
 
-#If the data has any null values:
-
-```print(data.isnull().sum())
+ 
